@@ -8,12 +8,12 @@
 
 const obj1 = {};
 
+// ничего не произойдет, прототип не поменялся с Object.prototype
 const obj2 = {
   __proto__: 'obj2'
 };
 
-// ничего не произойдет, прототип не поменялся с Object.prototype
-// console.log(obj2.__proto__ === Object.prototype); // true
+console.log(obj2.__proto__ === Object.prototype); // true
 
 obj2.__proto__ = obj1;
 console.log(obj2.__proto__ === obj1); // true, теперь прототип поменялся на obj1
