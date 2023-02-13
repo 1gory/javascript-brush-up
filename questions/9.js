@@ -1,4 +1,4 @@
-//Что проверяет a instanceof B?
+// Что проверяет a instanceof B?
 // Оператор instanceof a.__proto__ == B.prototype
 
 class B {}

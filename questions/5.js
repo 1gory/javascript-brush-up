@@ -1,9 +1,8 @@
-// Это выражение корректно? let symbol = new Symbol(’name’)?
-let symbol;
+// Это выражение корректно?
+let symbol = new Symbol('name');
 
-// symbol = new Symbol('name');
-// Symbol - не конструктор, поэтому возникнет ошибка.
-// `Symbol is not a constructor`
+// Symbol - не конструктор, поэтому возникнет ошибка:
+// TypeError: Symbol is not a constructor
 
 // Корректно:
 symbol = Symbol('name');

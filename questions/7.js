@@ -1,3 +1,5 @@
+// Какие свойства и методы есть у объекта Proxy?
+
 // У Proxy нет собственных свойств.
 // С пустым handler он просто перенаправляет все операции на target.
 const target = {};
@@ -10,7 +12,7 @@ let object = {
   data: "Данные"
 };
 
-let {proxyRevocable, revoke} = Proxy.revocable(object, {});
+let { proxyRevocable, revoke } = Proxy.revocable(object, {});
 console.log(proxyRevocable.data); // данные
 revoke();
 // больше не работает

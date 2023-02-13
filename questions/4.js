@@ -4,8 +4,8 @@ const obj = {
   age: 30
 };
 
-// Помимо добавелние в коллекцию методом map.set('name', 'Igor Pershin')
-// мы можем при инициализации передать массив пар [ключ, значение].
+// Помимо добавелния в коллекцию методом map.set('name', 'Igor Pershin'),
+// при мы можем инициализации передать массив пар [ключ, значение].
 // Object.entries(obj) как раз вернет [['name', 'Igor Pershin'], ['age', '30']]
 const map = new Map(Object.entries(obj));
 console.log(map.get('name')); // Igor Pershin

@@ -1,12 +1,9 @@
 // Как проверить наличие метода или функции в объекте?
-const parent = {
-  parentProperty: undefined,
-}
+const parent = { parentProperty: 'value' };
 
-const obj = {
-  propertyName: 'value',
-  __proto__: parent,
-}
+const obj = { propertyName: 'value' };
+
+Object.setPrototypeOf(obj, parent);
 
 // 1. C помощью оператора "in"
 // Проверит наличие метода/свойства в объекте и в цепочке прототипов.
