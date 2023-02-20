@@ -15,18 +15,16 @@
 - [Опишите свойство _ _proto_ _](questions/14.js)
 - [Как применяется spread синтаксис?](questions/15.js)
 - [Какие статические методы есть в Promise?](questions/16.js)
+- [Почему typeof null возвращает object? Как проверить, является ли значение null?](questions/17.js)
+====================================
+- [В чем разница между методами Object.freeze и Object.seal?](questions)
+- [Что такое NaN? Как проверить, является ли значение NaN?](questions)
+- [Что такое деструктуризация объекта (Object Destructuring)?](questions)
+- [Что такое IIFE?](questions)
+- [Что такое поднятие (Hoisting)?](questions)
 
-
-
-- [Почему typeof null возвращает object? Как проверить, является ли значение null?](questions/21.js)
-- [В чем разница между методами Object.freeze и Object.seal?](questions/21.js)
-- [Что такое NaN? Как проверить, является ли значение NaN?](questions/21.js)
-- [Что такое деструктуризация объекта (Object Destructuring)?](questions/21.js)
-- [Что такое IIFE?](questions/21.js)
-- [Что такое поднятие (Hoisting)?](questions/21.js)
-
-- [Что возвращает вызов функции-генератора?](questions/17.js)
-- [Существую ли приватные свойства в JS?](questions/18.js)
-- [Можно ли вызывать функцию конструктор без скобок new Object; ?](questions/19.js)
-- [Чем отличаются микрозадачи и макрозадачи в JS?](questions/20.js)
-- [Чем отличаются микрозадачи и макрозадачи в JS?](questions/22.js)
+- [Что возвращает вызов функции-генератора?](questions)
+- [Существую ли приватные свойства в JS?](questions)
+- [Можно ли вызывать функцию конструктор без скобок new Object; ?](questions)
+- [Чем отличаются микрозадачи и макрозадачи в JS?](questions)
+- [Чем отличаются микрозадачи и макрозадачи в JS?](questions)
