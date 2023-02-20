@@ -16,7 +16,11 @@
 - [Как применяется spread синтаксис?](questions/15.js)
 - [Какие статические методы есть в Promise?](questions/16.js)
 - [Почему typeof null возвращает object? Как проверить, является ли значение null?](questions/17.js)
+
+
 ====================================
+
+
 - [В чем разница между методами Object.freeze и Object.seal?](questions)
 - [Что такое NaN? Как проверить, является ли значение NaN?](questions)
 - [Что такое деструктуризация объекта (Object Destructuring)?](questions)
