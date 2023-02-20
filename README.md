@@ -18,13 +18,12 @@
 - [Почему typeof null возвращает object? Как проверить, является ли значение null?](questions/17.js)
 - [В чем разница между методами Object.freeze и Object.seal?](questions/18.js)
 - [Какие есть 4 атрибута свойства объекта?](questions/19.js)
-
+- [Что такое NaN? Как проверить, является ли значение NaN?](questions/20.js)
 
 ====================================
 
 
 
-- [Что такое NaN? Как проверить, является ли значение NaN?](questions)
 - [Что такое деструктуризация объекта (Object Destructuring)?](questions)
 - [Что такое IIFE?](questions)
 - [Что такое поднятие (Hoisting)?](questions)
