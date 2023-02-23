@@ -19,12 +19,11 @@
 - [В чем разница между методами Object.freeze и Object.seal?](questions/18.js)
 - [Какие есть 4 атрибута свойства объекта?](questions/19.js)
 - [Что такое NaN? Как проверить, является ли значение NaN?](questions/20.js)
+- [Что такое деструктуризация в JS?](questions/21.js)
 
 ====================================
 
 
-
-- [Что такое деструктуризация объекта (Object Destructuring)?](questions)
 - [Что такое IIFE?](questions)
 - [Что такое поднятие (Hoisting)?](questions)
 
