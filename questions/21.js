@@ -4,8 +4,8 @@
 
 // Пример с массивами, либо с любыми перебираемыми объектами
 const arr = ['one', 'two'];
-const [varOne, varTwo] = arr;
-console.log(varOne, varTwo); // 'one', 'two'
+const [varOne, varTwo, varThree = 'default'] = arr; // значение по умолчанию, если массив короче, чем переменных в левой чатси
+console.log(varOne, varTwo, varThree); // one two default
 
 // Пример с объектами
 const obj = {a: {b: 'value1', c: 'valut2'}};
