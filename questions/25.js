@@ -9,5 +9,4 @@ console.log(10000000..toLocaleString()); // 10,000,000
 console.log(10000000..toLocaleString('ru-RU')); // 10 000 000
 
 // так же есть аргумент options, который позволяет отредактировать полученный результат
-console.log(100..toLocaleString('ru-RU', { style: 'currency', currency: 'RUB' })); // 100,00 ₽
-
+console.log(100..toLocaleString('ru-RU', {style: 'currency', currency: 'RUB'})); // 100,00 ₽

@@ -1,7 +1,7 @@
 // Как проверить наличие метода или функции в объекте?
-const parent = { parentProperty: 'value' };
+const parent = {parentProperty: 'value'};
 
-const obj = { propertyName: 'value' };
+const obj = {propertyName: 'value'};
 
 Object.setPrototypeOf(obj, parent);
 

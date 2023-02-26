@@ -12,7 +12,7 @@ let object = {
   data: "Данные"
 };
 
-let { proxyRevocable, revoke } = Proxy.revocable(object, {});
+let {proxyRevocable, revoke} = Proxy.revocable(object, {});
 console.log(proxyRevocable.data); // данные
 revoke();
 // больше не работает

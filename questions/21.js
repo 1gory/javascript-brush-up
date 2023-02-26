@@ -9,5 +9,5 @@ console.log(varOne, varTwo, varThree); // one two default
 
 // Пример с объектами
 const obj = {a: {b: 'value1', c: 'valut2'}};
-const {a: {b: val1, c, d = 'default'}} = obj;  
+const {a: {b: val1, c, d = 'default'}} = obj;
 console.log(val1, c, d); // value1 valut2 default
