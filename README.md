@@ -23,10 +23,10 @@
 - [Что такое "функция высшего порядка" (Higher-Order Functions)?](questions/22.js)
 - [Что такое объекты первого класса (First-Class Objects)?](questions/23.js)
 - [Что такое мутирующие и немутирующие методы на примере методов массивов?](questions/24.js)
+- [Что делает метод toLocaleString?](questions/25.js)
 
 ====================================
 
-- [Что делает метод toLocaleString?](questions/25.js)
 - [Какие значения возвращает typeof?](questions/26.js)
 - [Что такое лямбда-функции в JS?](questions/27.js)
 
