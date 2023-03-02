@@ -24,10 +24,10 @@
 - [Что такое объекты первого класса (First-Class Objects)?](questions/23.js)
 - [Что такое мутирующие и немутирующие методы на примере методов массивов?](questions/24.js)
 - [Что делает метод toLocaleString?](questions/25.js)
+- [Какие значения возвращает typeof?](questions/26.js)
 
 ====================================
 
-- [Какие значения возвращает typeof?](questions/26.js)
 - [Что такое лямбда-функции в JS?](questions/27.js)
 - [Как применяется оператор void в JavaScript?](questions/28.js)
 - [Как работает EventSource и в чем отличие от WebSocket?](questions/29.js)
