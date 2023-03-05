@@ -12,5 +12,4 @@ function myFunc() {
 
 let i = void myFunc();
 
-
 console.log(i); // undefined
