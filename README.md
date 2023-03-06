@@ -29,11 +29,10 @@
 - [Что такое анонимные функции и лямбда-функции в JS?](questions/27.js)
 - [Как применяется оператор void в JavaScript?](questions/28.js)
 - [Как работает EventSource и в чем отличие от WebSocket?](questions/29.js)
+- [Что такое IIFE?](questions/30.js)
 
 ====================================
 
-
-- [Что такое IIFE?](questions)
 - [Что такое поднятие (Hoisting)?](questions)
 
 - [Что возвращает вызов функции-генератора?](questions)
