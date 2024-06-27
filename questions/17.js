@@ -1,3 +1,3 @@
-// Это баг, так сложилось по историческим причинам
-// И этот баг не будет исправлен для сохранения обратной совместимости
+// This is a bug, it happened due to historical reasons.
+// And this bug will not be fixed to maintain backward compatibility.
 typeof null === 'object'; // true 
