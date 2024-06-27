@@ -1,16 +1,15 @@
-// Что такое анонимные функции и лямбда-функции в JS
+// What are anonymous functions and lambda functions in JS
 
-// Если после function есть имя — функция именованная, во всех остальных случая анонимная
-// - можно передавать как аргумент в другую функцию;
-// - можно сохранять в переменную;
-// - можно вызывать на месте;
-// - стрелочные функции в JS всегда анонимны.
-// хорошая статья на тему https://medium.com/devschacht/anonymous-functions-in-javascript-ff6b9ba85de0
+// If there is a name after function, it's a named function; otherwise, it's anonymous.
+// - can be passed as an argument to another function;
+// - can be stored in a variable;
+// - can be called in place
+// - Arrow functions in JS are always anonymous.
+// A good article on the topic https://medium.com/devschacht/anonymous-functions-in-javascript-ff6b9ba85de0
 
-// Лямбда-функции:
-// - не имеет имени;
-// - может принимать только один аргумент;
-// - нужна для связывания переменных;
-// - может передаваться как аргумент в другую функцию или возвращаться из функции в качестве результата вычисления;
-// - не может влиять на внешний мир (без сайд-эффектов).
-// хорошая статья на тему http://andreymiskov.ru/posts/anonymous-functions-and-lambdas/
+// Lambda functions:
+// - are unnamed;
+// - can take only one argument;
+// - is used for binding variables;
+// - can be passed as an argument to another function or returned from a function as a result;
+// - cannot affect the external code (without side effects).
