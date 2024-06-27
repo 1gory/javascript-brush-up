@@ -1,8 +1,8 @@
-// Как применяется объект Proxy?
+// How is the Proxy object used?
 let person = {name: 'Igor'};
 
-// Proxy - по сути декоратор над объектом, с помощью которого
-// можно перехватить вызов методов get, set, has, apply, construct и других.
+// Proxy is essentially a decorator over an object, allowing you to intercept
+// method calls such as get, set, has, apply, construct, and others.
 person = new Proxy(person, {
   get(target, prop) {
     if (prop === 'name') {
