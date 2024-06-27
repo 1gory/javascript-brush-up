@@ -1,5 +1,5 @@
-// Что такое всплытие/поднятие (Hoisting)?
+// What is Hoisting?
 
-// Для «var» не существует блочной области видимости.
+// There is no block scope for "var".
 
-// Все объявления переменных var «всплывают» в самый верх функции.
+// All var variable declarations "pop up" at the very top of the function.
