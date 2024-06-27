@@ -1,8 +1,8 @@
-// NaN - специальное числовое значение, которое относятся к типу данных "number"
+// NaN (Not-a-Number) is a special numeric value that belongs to the "number" data type.
 
-// Как проверить, что число является NaN?
-isNaN(value); // сначала приведет значение к числу, а потом проверит, является ли это значение NaN
-Number.isNaN(value) // сначала проверит, является ли значение числом, а потом проверит, является ли оно NaN
+// How to check if a number is NaN?
+isNaN(value); // First coerces the value to a number, then checks if this value is NaN.
+Number.isNaN(value) // First checks if the value is a number, then checks if it is NaN.
 
-// Кстати, значение NaN не равно никакому другому числу, и даже самому NaN
+// By the way, the value NaN is not equal to any other number, including itself.
 NaN === NaN; // false
