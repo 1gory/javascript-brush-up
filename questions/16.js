@@ -1,16 +1,15 @@
-// Какие статические методы есть в Promise?
-const promises = []; // promises - массив с объектами Promise
+// What are the static methods in Promise?
+const promises = []; // promises - an array of Promise objects
 
-Promise.all(promises); // - возвращает массив с результатами. Если хотя бы один вернет ошибку,
-// результатом будет эта ошибка;
+Promise.all(promises); // Returns an array with results. If at least one returns an error, the result will be that error.
 
-Promise.allSettled(promises) // - возвращает массив с результатами. Дождется выполнения всех
-// промисов, возвращает результат в виде массива объектов {status: "fulfilled"/"rejected", value: result/error};
+Promise.allSettled(promises) // Returns an array of results. Waits for all promises to resolve,
+// then returns the result as an array of objects {status: "fulfilled"/"rejected", value: result/error}.
 
-Promise.race(promises); // - ожидает перывый результат, успешный или ошибку. Остальные игнорируются;
+Promise.race(promises); // Waits for the first result, whether successful or an error. Ignores the rest.
 
-// Promise.any(promises); // - ожидает первый успешный результат. Если все вернули ошибку, результатом будет AggregateError;
+// Promise.any(promises); // Waits for the first successful result. If all return errors, the result will be an AggregateError.
 
-Promise.resolve("value"); // - возвращает успешный промис с результатом value;
+Promise.resolve("value"); // Returns a successful promise with the result value.
 
-Promise.reject("error"); // - возвращает отклоненный промис с ошибкой Error;
+Promise.reject("error"); // Returns a rejected promise with an Error.
