@@ -1,6 +1,6 @@
-// Что такое объекты первого класса (First-Class Objects)?
+// What are first-class objects?
 
-// Объекты, котороые могут быть
-// - переданы как параметр
-// - возвращены из функции
-// - присвоены переменной
+// Objects that can be
+// - passed as parameters
+// - returned from a function
+// - assigned to a variable
