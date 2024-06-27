@@ -1,8 +1,8 @@
-// Это выражение корректно?
+// Is this expression correct?
 let symbol = new Symbol('name');
 
-// Symbol - не конструктор, поэтому возникнет ошибка:
+// Symbol is not a constructor, so an error will occur:
 // TypeError: Symbol is not a constructor
 
-// Корректно:
+// Correct way:
 symbol = Symbol('name');
