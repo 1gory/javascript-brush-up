@@ -1,5 +1,5 @@
-// Что проверяет a instanceof B?
-// Оператор instanceof a.__proto__ == B.prototype
+// What does a instanceof B check?
+// The operator `instanceof` checks if `a.__proto__ equals B.prototype`
 
 class B {}
 const a = new B();
