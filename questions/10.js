@@ -1,4 +1,4 @@
-// Как проверить что переменная - массив?
+// How to check if a variable is an array
 const a = [];
 
 console.log(Array.isArray(a))                   // ture
