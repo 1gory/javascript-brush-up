@@ -1,6 +1,6 @@
-// Как применяется spread синтаксис?
+// How is the spread syntax used?
 
-// 1. Для функций, чтобы передать неопределенное количество аргументов
+// 1. For functions, to pass an indefinite number of arguments.
 function func() {
   console.log(arguments.length); // 3
 }
@@ -8,19 +8,19 @@ function func() {
 const arg = ['1', '2', '3'];
 func(...arg);
 
-// 2. Чтобы получить все переданные аргументы функции, тем самым заменяя объект arguments
+// 2. To capture all passed arguments to a function, thereby replacing the arguments object.
 function newFunc(...arg) {
   console.log(arg.length); // 3
 }
 
 newFunc(1, 2, 3);
 
-// 3. Копирование элементов массива или конкатенация массива
+// 3. Copying elements of an array or concatenating arrays
 const a = [1, 2, 3];
 const b = [...a, 4, 5, 6];
 console.log(b); // [ 1, 2, 3, 4, 5, 6 ]
 
-// 4. Копирование собственных перечисляемых свойств объекта в другой объект
+// 4. Copying own enumerable properties of an object into another object
 const obj1 = {
   a: 1, b: 2,
 };
