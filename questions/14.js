@@ -1,14 +1,14 @@
-// Опишите свойство __proto__
+// Describe the __proto__ property
 
-// Это не свойство. Это геттер/сеттер для прототипа в объекте,
-// - причем заданный в Object.prototype,
-// - причем устаревший,
-// - причем __proto__ должно быть либо объектом, либо null.
-// Строка, к примеру, не может стать прототипом. Присвоение будет проигнорировано
+// This is not a property. It is a getter/setter for the prototype in an object.
+// - specifically defined in Object.prototype
+// - and it is deprecated
+// - and __proto__ must either be an object or null.
+// A string, for example, cannot become a prototype. The assignment will be ignored.
 
 const obj1 = {};
 
-// ничего не произойдет, прототип не поменялся с Object.prototype
+// Nothing will happen; the prototype did not change
 const obj2 = {
   __proto__: 'obj2'
 };
@@ -16,10 +16,9 @@ const obj2 = {
 console.log(obj2.__proto__ === Object.prototype); // true
 
 obj2.__proto__ = obj1;
-console.log(obj2.__proto__ === obj1); // true, теперь прототип поменялся на obj1
-
+console.log(obj2.__proto__ === obj1); // true, now the prototype has changed to
 obj2.__proto__ = null;
-console.log(obj2.__proto__); // undefined, теперь прототипом является null,
-// но сам сеттер/геттер __proto__ нахоился в Object.prototype и теперь недоступен.
-// Но мы можем воспользоваться другим, рекомендуемым методом для получения объекта протоипа:
+console.log(obj2.__proto__); // undefined, now the prototype is null.
+// But the __proto__ setter/getter itself was located in Object.prototype and is now unavailable.
+// But we can use another recommended method to obtain the object's prototype:
 console.log(Object.getPrototypeOf(obj2)); // null
