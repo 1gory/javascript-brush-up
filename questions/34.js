@@ -1,8 +1,8 @@
-// Что возвращает вызов функции-генератора?
+// What does the call to the generator function return?
 
-// "функция-генератор" возвращает объект "генератор".
-// С помощью метода next этого объекта можно последовательно
-// получить значения yield из фукнкции-генератора.
+// "function-generator" returns a "generator" object.
+// Using the next method of this object, you can successively
+// get yield values from the function-generator.
 
 function* generate() {
   yield 1;
