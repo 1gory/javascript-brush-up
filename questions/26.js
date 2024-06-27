@@ -1,9 +1,9 @@
-// Какие значения возвращает typeof?
+// What values does typeof return?
 
-// Всегда строка со строчной буквы.
-// Может возвращать 8 значений:
-// - 7 для 8 основных типов данных (7, а не 8, так как для null вернет "object")
-// - для функции или класса вернет "function"
+// Always a string with a lowercase letter.
+// It can return 8 values:
+// - 7 for the 8 primary data types (7, not 8, because it returns "object" for null)
+// - For a function or class, it returns "function".
 
 console.log(typeof undefined); // "undefined"
 
@@ -23,5 +23,4 @@ console.log(typeof alert); // "function"
 
 console.log(typeof null); // "object"
 
-// typeof null === "object" является общеизветсным багом,
-// который не будет исправлен для сохранения обратной совместимости.
+// typeof null === "object" is a well-known bug that will not be fixed to maintain backward compatibility.
