@@ -1,13 +1,13 @@
-// Что такое деструктуризация в JS?
+// What is destructuring in JavaScript?
 
-// Специальный синтаксис, позволяющий присваивать переменным значения внутри объекта или массива.
+// Special syntax that allows assigning values to variables from objects or arrays.
 
-// Пример с массивами, либо с любыми перебираемыми объектами
+// An example with arrays or any iterable objects
 const arr = ['one', 'two'];
-const [varOne, varTwo, varThree = 'default'] = arr; // значение по умолчанию, если массив короче, чем переменных в левой чатси
+const [varOne, varTwo, varThree = 'default'] = arr; // default value if the array is shorter than the variables in the left-hand side
 console.log(varOne, varTwo, varThree); // one two default
 
-// Пример с объектами
+// An example with objects
 const obj = {a: {b: 'value1', c: 'valut2'}};
 const {a: {b: val1, c, d = 'default'}} = obj;
 console.log(val1, c, d); // value1 valut2 default
