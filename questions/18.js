@@ -1,8 +1,8 @@
-// В чем разница между методами Object.freeze и Object.seal?
+// What is the difference between Object.freeze and Object.seal methods?
 
 // Object.freeze(obj)
-// Запрещает добавление, удаление и изменение свойств, все текущие свойства делает configurable: false, writable: false.
+// It prevents adding, deleting, and modifying properties; all existing properties are made configurable: false and writable: false.
 
 
 // Object.seal(obj)
-// Запрещает добавление и удаление свойств, все текущие свойства делает configurable: false.
+// It prevents adding and deleting properties; all existing properties are made configurable: false.
