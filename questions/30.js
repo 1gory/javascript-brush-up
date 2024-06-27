@@ -1,6 +1,5 @@
-// Что такое IIFE?
+// What is IIFE?
 
 // Immediately Invoked Function Expression — IIFE
-// Немедленно вызываемое функциональное выражение
 
 (() => console.log('Hello!'))();
