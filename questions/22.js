@@ -11,4 +11,4 @@ const plusOneHOF = function (funcArg) {
 const sum = (a, b) => a + b;
 
 const resultFunc = plusOneHOF(sum);
-console.log(resultFunc(1, 2)); // 1
+console.log(resultFunc(1, 2)); // 4
