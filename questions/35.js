@@ -1,4 +1,4 @@
-// Существую ли приватные свойства в JS?
+// Do private properties exist in JS?
 
 class myClass {
   #privateProperty = 100;
