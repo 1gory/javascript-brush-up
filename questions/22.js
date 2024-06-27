@@ -1,6 +1,6 @@
-// Что такое "функция высшего порядка" (Higher-Order Functions)?
+// What is a "higher-order function"?
 
-// Функция высшего порядка, это функция, которая принимает в качестве аргумента функцию или возвращает её функцию
+// A higher-order function is a function that takes a function as an argument or returns a function.
 
 const plusOneHOF = function (funcArg) {
   return function (a, b) {
