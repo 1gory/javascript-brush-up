@@ -1,20 +1,20 @@
-// Как проверить наличие метода или функции в объекте?
+// How to check if a method or function exists in an object?
 const parent = {parentProperty: 'value'};
 
 const obj = {propertyName: 'value'};
 
 Object.setPrototypeOf(obj, parent);
 
-// 1. C помощью оператора "in"
-// Проверит наличие метода/свойства в объекте и в цепочке прототипов.
+// 1. With the "in" operator.
+// Checks if the method/property exists in the object and in the prototype chain
 console.log('propertyName' in obj); // true
-console.log('parentProperty' in obj); // true, свойство найдено в прототипе
+console.log('parentProperty' in obj); // true, the property has been found in the prototype.
 
-// 2. C помощью метода "hasOwnProperty"
-// Проверит наличие метода/свойства только в самом объекте, не в цепочке прототипов.
+// 2. Using the "hasOwnProperty" method
+// It checks the existence of a method/property only in the object itself, not in it's prototype chain.
 console.log(obj.hasOwnProperty('propertyName')); // true
 console.log(obj.hasOwnProperty('parentProperty')); // false
 
-// 3. С помощью сравнения с “undefined”:
-// Следует помнить, что свойство может быть объявлено, но быть равно undefined.
+// 3. Using a comparison with "undefined":
+// It should be remembered that a property can be declared but still be undefined.
 console.log(obj.propertyName === undefined); // false
