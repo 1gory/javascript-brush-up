@@ -1,10 +1,9 @@
-// Как применяется оператор void в JavaScript?
+// How is the void operator used in JavaScript?
 
-// В JS это — оператор
+// In JavaScript, it is an operator
 
-// В JS оператор void вычисляет переданное ему выражение.
-// При этом, независимо от того, какое именно выражение вычисляется,
-// void всегда возвращает undefined.
+// In JavaScript, the void operator evaluates the expression passed to it.
+// However, regardless of the expression evaluated, void always returns undefined.
 
 function myFunc() {
   return 2 + 2
