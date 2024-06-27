@@ -1,6 +1,6 @@
-// Можно ли вызывать функцию конструктор без скобок new Object; ?
+// Is it possible to call the constructor function without the brackets new Object; ?
 
-// можно, но не рекомендуется
+// It is possible, but not recommended.
 const obj = new Object;
 const arr = new Array;
 
