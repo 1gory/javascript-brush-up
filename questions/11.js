@@ -1,22 +1,22 @@
-// Чем отличаются стрелочные функции?
+// What are the differences with arrow functions?
 
-// 1. У них нету контекста this, значение this берётся снаружи.
+// 1. There is no this context; the value of this is taken from the outside.
 const obj = {
   name: "Igor",
   showName() {
     (() => console.log(this.name))();
   },
 };
-obj.showName(); // Igor, значение this берется из метода showName
+obj.showName(); // Igor, the value of this is taken from the showName method
 
-// 2. У них нет объекта arguments (псевдомассива), это также используется чтобы пробросить arguments снаружи
+// 2. They do not have the arguments object (pseudo-array); this is also used to pass arguments from the outside.
 const func = () => {
   console.log(arguments);
-  // - В браузере будет ошибка, "ReferenceError: arguments is not defined"
-  // - А в среде node.js выведеся объект [Arguments] {exports, require, module, __filename, and __dirname}
-  // так как код файла, исполняемого в node.js оборачивается в функцию.
+  // - In the browser, there will be an error "ReferenceError: arguments is not defined"
+  // - In a Node.js environment, it will output the object [Arguments] {exports, require, module, __filename, and __dirname}
+  // - In Node.js, the code of a file executed is wrapped in a function
 };
-func(); // ошибка или {exports, require, module, __filename, and __dirname}
+func(); // there will be an error {exports, require, module, __filename, and __dirname}
 
-// 3. Стрелочные функции не могут быть вызваны как конструктор, генерируется ошибка
+// 3. Arrow functions cannot be called as constructors; an error will be generated.
 new func(); // Uncaught TypeError: x is not a constructor
