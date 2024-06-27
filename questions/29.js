@@ -1,10 +1,9 @@
-// Как работает EventSource и в чем отличие от WebSocket?
+// How does EventSource work and what is the difference from WebSocket?
 
 const source = new EventSource('https://site.com/', {withCredentials: true});
 
-// Объект EventSource автоматически устанавливает постоянное соединение и позволяет серверу отправлять через него сообщения.
-// - автоматическое переподключение
-
-// - однонаправленность: данные посылает только сервер (WS - двунаправленные)
-// - только текст (WS - текст и бинарные данные)
-// - обычный HTTP (Протокол WebSocket)
+// The EventSource object automatically establishes a persistent connection and allows the server to send messages through it.
+// - automatic reconnection
+// - unidirectional: only the server sends data (WS - bidirectional)
+// - text only (WS - text and binary data)
+// - regular HTTP (WebSocket is a protocol)
