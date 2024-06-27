@@ -1,19 +1,19 @@
-// Какие свойства и методы есть у объекта Proxy?
+// What properties and methods does the Proxy object have?
 
-// У Proxy нет собственных свойств.
-// С пустым handler он просто перенаправляет все операции на target.
+// The Proxy has no own properties.
+// With an empty handler, it simply forwards all operations to the target.
 const target = {};
 const handler = {};
 let proxy = new Proxy(target, handler);
 console.log(proxy); // [[Handler]] [[Target]] [[IsRevoked]]
 
-// но у Proxy есть статический метод Proxy.revocable(), который позволяет отключать прокси
+// but Proxy has a static method Proxy.revocable(), which allows you to disable the proxy
 let object = {
-  data: "Данные"
+  data: "Important data"
 };
 
-let {proxyRevocable, revoke} = Proxy.revocable(object, {});
-console.log(proxyRevocable.data); // данные
+let { proxyRevocable, revoke } = Proxy.revocable(object, {});
+console.log(proxyRevocable.data); // data
 revoke();
-// больше не работает
+// no longer works
 console.log(proxyRevocable.data); // TypeError: Cannot perform 'get' on a proxy that has been revoked
