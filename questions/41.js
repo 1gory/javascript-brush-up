@@ -3,7 +3,7 @@
   }
 
   try {
-    x();
+    x(); // the function is called without `await`
   } catch (e) {
     console.log(e) // Will the error be caught in "try catch"?
   }
