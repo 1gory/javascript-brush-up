@@ -8,4 +8,4 @@
     console.log(e) // Will the error be caught in "try catch"?
   }
 
-// no, because `try catch` works with sync code.
+// The error won't be caught because `try catch` works with sync code.
