@@ -1,4 +1,4 @@
-// What is the difference between "&&" and "??" ?
+// What is the difference between "||" and "??" ?
 
 // The ?? operator is used to check for null or undefined. 
 // If the operand on the left side of ?? is null or undefined, it returns the right operand. Here's how it works:
